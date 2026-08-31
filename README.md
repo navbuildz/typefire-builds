@@ -15,9 +15,23 @@ Everything is stored as plain files on your own disk. Nothing is uploaded, and t
 
 ## Install
 
-Download the latest `.dmg` from [Releases](https://github.com/navbuildz/typefire-builds/releases/latest), or from [typefire.app](https://typefire.app).
+Download **`TypeFire.dmg`** from [the latest release](https://github.com/navbuildz/typefire-builds/releases/latest), or from [typefire.app](https://typefire.app).
 
-Apple Silicon Macs, macOS 12 or later. Signed and notarised.
+Apple Silicon Macs, macOS 12 or later. Signed and notarised by Apple.
+
+### Which file do I want?
+
+Every release carries the same build under a few names. Unless you have a reason otherwise, take the first one.
+
+| File | What it is |
+|---|---|
+| `TypeFire.dmg` | **The installer. This is the one you want.** Always the newest release. |
+| `TypeFire_x.y.z_aarch64.dmg` | The identical installer, with the version in the filename. Use it to pin a specific version. |
+| `TypeFire.app.tar.gz` | Used by the in-app updater. Not a download for people. |
+| `TypeFire.app.tar.gz.sig` | Signature for the updater payload. |
+| `latest.json` | The update manifest the app polls. |
+
+The two DMGs are byte for byte identical; the release process verifies that before publishing.
 
 ## Free, and what Pro adds
 
